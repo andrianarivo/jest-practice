@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "git@github.com:andrianarivo/jest-practice.git",
   "author": "andrianarivo <andrianarivo.david@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch ./*.js"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
